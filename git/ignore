@@ -1,0 +1,185 @@
+# =========================================================
+# Environment variables and secrets
+# =========================================================
+.env
+.env.*
+!.env.example
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets.*
+credentials.*
+service-account*.json
+firebase-adminsdk*.json
+
+# =========================================================
+# API keys / local config
+# =========================================================
+config.local.*
+*.local.json
+*.local.yaml
+*.local.yml
+
+# =========================================================
+# Logs
+# =========================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# Databases
+# =========================================================
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.db-journal
+*.sqlite-journal
+
+# =========================================================
+# Node / frontend build output
+# =========================================================
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+.vercel/
+.netlify/
+
+# =========================================================
+# Package manager cache
+# =========================================================
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# =========================================================
+# OS files
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# Editor / IDE local settings
+# =========================================================
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# =========================================================
+# AI coding tools local settings
+# =========================================================
+.claude/settings.local.json
+**/.claude/settings.local.json
+.codex/
+.cursor/
+.cursorignore
+.windsurf/
+.aider*
+.aider.chat.history.md
+
+# =========================================================
+# Visual Studio / C#
+# =========================================================
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================================================
+# MSBuild / Visual Studio generated files
+# =========================================================
+*.pch
+*.pdb
+*.ipch
+*.aps
+
+# =========================================================
+# Python cache and virtual environments
+# =========================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# =========================================================
+# Python Distribution / Packaging
+# =========================================================
+*.egg-info/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================================================
+# Jupyter Notebook
+# =========================================================
+.ipynb_checkpoints/
+
+# =========================================================
+# Data analysis artifacts
+# =========================================================
+data/
+*.parquet
+*.h5
+*.pickle
+*.pkl
+
+# =========================================================
+# Database backups
+# =========================================================
+*.bak
+*.dump
+*.sql.gz
+*.backup
+
+# =========================================================
+# Temporary files
+# =========================================================
+tmp/
+temp/
+.cache/
+
+# =========================================================
+# Office Temporary Files
+# =========================================================
+~$*.xlsx*
+~$*.docx*
+~$*.pptx*
+~$*.xls*
+~$*.doc*
+~$*.ppt*
+.xls
+.doc
+.ppt
+
+# =========================================================
+# Windows System
+# =========================================================
+$RECYCLE.BIN/
+System Volume Information/
+
+# =========================================================
+# Personal config repo specific
+# =========================================================
+scoop/config.json
+vscode/default.code-profile
+configstore
