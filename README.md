@@ -1,4 +1,4 @@
-# Jiahao Configs
+# Ciahao Configs
 
 This repository stores my personal development environment settings.
 
