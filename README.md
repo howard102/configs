@@ -25,25 +25,20 @@ This repository stores my personal development environment settings.
 
 ## Main Shortcuts
 
+git:
+- `ignore` - 不同步設定
+
 PowerShell:
 
 - `themes` - 主題設定
+- `Microsoft.PowerShell_profile.ps1` - 主要設定檔
 - `projects`
 - `tracker`
-- `configs`
 - `devtracker`
-- `gs`
-- `gaa`
-- `gitcm`
-- `gitp`
-- `gpl`
 
 WSL2:
 
 - `themes` - 主題設定
+- `zshrc` - 主要設定檔
 - `projects`
 - `tracker`
-- `configs`
-- `pnd`
-- `pnb`
-- `pni`
