@@ -27,7 +27,7 @@ This repository stores my personal development environment settings.
 
 PowerShell:
 
--`themes` - 主題設定
+- `themes` - 主題設定
 - `projects`
 - `tracker`
 - `configs`
